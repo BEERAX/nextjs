@@ -1,0 +1,31 @@
+.title {
+  color: black;
+  text-decoration: none;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+
+.title:hover {
+  color: gray;
+  transition: 0.3s ease-in-out;
+}
+
+.title span:hover {
+  color: gray;
+  transition: 0.3s ease-in-out;
+}
+
+.title span {
+  color: red;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}

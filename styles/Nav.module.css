@@ -1,0 +1,20 @@
+.container {
+  color: red;
+  background-color: black;
+  text-align: right;
+  padding-right: 1.5rem;
+}
+
+.ul {
+  margin: 0;
+}
+.li {
+  display: inline-block;
+  text-decoration: none;
+  margin: .5rem;
+}
+
+.li:hover {
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
